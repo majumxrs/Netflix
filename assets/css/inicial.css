@@ -1,0 +1,168 @@
+/*Reset dos elementos*/
+html, body, section, h1, h2, span,
+div, form, input, nav, header {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+@font-face {
+    font-family: "Netflix-normal";
+    src: url("fonts/NetflixSans_W_Rg.woff2");
+}
+@font-face {
+    font-family: "Netflix-media";
+    src: url("fonts/NetflixSans_W_Md.woff2");
+}
+@font-face {
+    font-family: "Netflix-black";
+    src: url("fonts/NetflixSans_W_Blk.woff2");
+}
+@font-face {
+    font-family: "Netflix-bold";
+    src: url("fonts/NetflixSans_W_Bd.woff2");
+}
+body {
+    background-color: black;
+    color: white;
+    font-family: "Netflix-normal";
+}
+.header-info {
+    background-color: white; 
+    width: 100%; /*Largura*/
+    height: 67px; /*Altura*/
+    text-align: center;
+    color: black;
+}
+.header-info span,
+.header-info a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 18px;
+}
+.header-info .new {
+    background-color: #e50914;
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 13px;
+    font-family: "Netflix-media";
+}
+header {
+    background: radial-gradient( rgba(10,10,10,0.4) , rgba(10,10,10,0.95)), url("fundo-netflix.jpg");
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+}
+.header-principal {
+    height: 100px;
+}
+.header-logo {
+    float: left;
+    margin: 40px 170px;
+}
+.header-nav {
+    float: right;
+    margin: 40px 150px
+}
+.header-logo svg {
+    fill: #e50914;
+    width: 150px;
+    height: 40px;
+}
+.btn {
+    background-color: #e50914;
+    color: white;
+    font-family: "Netflix-media";
+    text-decoration: none;
+}
+.preco {
+    font-size: 20px;
+    font-family: "Netflix-black";
+}
+.small {
+    padding: 7px 12px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.header-nav select {
+    background: none;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    padding: 7px 12px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-right: 20px;
+}
+.header-nav option {
+    background-color: gray;
+    color: white;
+}
+.saiba {
+    font-family: "Netflix-media";
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 12px;
+    color: #0071eb;
+}
+.header-banner {
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Netflix-black";
+}
+.header-banner h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.header-banner h2 {
+    font-size: 22px;
+    font-family: "Netflix-media";
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.header-banner span {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: "Netflix-normal";
+
+}
+.header-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.input-field input {
+    height: 65px;
+}
+.email {
+    width: 400px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.big {
+    width: 180px;
+    font-size: 20px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.header-banner {
+    margin-top: 90px;
+}
+.item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-around;
+    row-gap: 20px;
+    column-gap: 2px;
+}
