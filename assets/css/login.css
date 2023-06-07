@@ -1,0 +1,74 @@
+html, body, stction, h1, h2, 
+span, div, form, input, nav, header{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+@font-face {
+    font-family: "Netflix-normal";
+    src: url("Fontes/fonts/NetflixSans_W_Rg.woff2");
+}
+@font-face {
+    font-family: "Netflix-Blk";
+    src: url("Fontes/fonts/NetflixSans_W_Blk.woff2");
+}
+@font-face {
+    font-family: "Netflix-Bd";
+    src: url("fonts/NetflixSans_W_Bd.woff2");
+}
+@font-face {
+    font-family: "Netflix-Md";
+    src: url("Fontes/fonts/NetflixSans_W_Md.woff2");
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: "Netflix-normal";
+}
+body {
+    background: radial-gradient( rgba(10 ,10 ,10, 0.3) , rgba(10 ,10 ,10 ,0.8) ), url(foto/fundo-netiflix.jpg);
+    height: 800px;
+    width: 100%;
+
+}
+.header-logo{
+    margin: 45px 55px;
+}
+.header-logo svg {
+    fill:#e50914;
+    width: 167px;
+    height: 45px;
+}
+.caixaTranparenteDasIfo{
+    display: flex;
+    height: 40rem;
+    width: 29%;
+    background-color: rgba(10 ,10 ,10, 0.8);
+    margin-left: 32rem;
+    margin-top: -3.5rem;
+    border-radius: 1rem;
+}
+.PriInputProprio1{
+    margin-top: 10rem;
+    margin-left: -8.4rem;
+    width: 20rem;
+    height: 3.5rem;
+    border-radius: 1rem;
+}
+.SegInputProprio2{
+    margin-top: 16rem;
+    margin-left: -20rem;
+    width: 20rem;
+    height: 3.5rem;
+    border-radius: 1rem;
+}
+span{
+    display: block;
+    margin-top: 5rem;
+    font-size: 2em;
+    margin-left: 7rem;
+    font-weight: bold;
+    font-family: "Netflix-normal";
+} 
+/*fiz ate aqui*/
