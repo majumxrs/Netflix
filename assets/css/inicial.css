@@ -4,7 +4,6 @@ div, form, input, nav, header {
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
     vertical-align: baseline;
 }
 @font-face {
@@ -27,38 +26,16 @@ body {
     background-color: black;
     color: white;
     font-family: "Netflix-normal";
-}
-.header-info {
-    background-color: white; 
-    width: 100%; /*Largura*/
-    height: 67px; /*Altura*/
-    text-align: center;
-    color: black;
-}
-.header-info span,
-.header-info a {
-    display: inline-block;
-    margin-top: 20px;
-    text-decoration: none;
-    margin-left: 5px;
-    margin-right: 5px;
-    font-size: 18px;
-}
-.header-info .new {
-    background-color: #e50914;
-    color: white;
-    border-radius: 15px;
-    padding: 5px;
-    font-size: 13px;
-    font-family: "Netflix-media";
+    font-size: 14px;
 }
 header {
     background: radial-gradient( rgba(10,10,10,0.4) , rgba(10,10,10,0.95)), url("fundo-netflix.jpg");
     background-size: cover;
-    height: 800px;
+    height: 750px;
     width: 100%;
 }
 .header-principal {
+    width: 100%;
     height: 100px;
 }
 .header-logo {
@@ -94,7 +71,8 @@ header {
     border-radius: 5px;
     border: 1px solid white;
     color: white;
-    padding: 7px 12px;
+    padding: 7px 16px;
+    padding-left: 2rem;
     border-radius: 5px;
     font-size: 15px;
     margin-right: 20px;
@@ -139,6 +117,7 @@ header {
 }
 .input-field input {
     height: 65px;
+    border-radius: 5px;
 }
 .email {
     width: 400px;
@@ -165,4 +144,186 @@ header {
     align-content: space-around;
     row-gap: 20px;
     column-gap: 2px;
+}
+.default-ltr-cache-iyxs8w{
+    position: absolute;
+    top: 3.1rem;
+    right: 22rem;
+}
+.popoca {
+    margin-top: 7rem;
+    margin-left: -28rem;
+}
+.voltapipopoca {
+    margin-top: 5rem;
+    width: 90%;
+    height: 8rem;
+    background: rgb(229,9,20);
+    background: radial-gradient(circle, rgba(229,9,20,1) 0%, rgba(48,9,121,1) 50%, rgba(0,7,9,1) 80%);
+    margin: 0 auto;
+    text-align: center;
+}
+.voltapipopocaazul{
+    margin: 0 auto;
+    width: 100%;
+    height: 8rem;
+    border-radius: 50%;
+    z-index: 0;
+}
+.voltapipopocaverm{
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    flex-flow: row;
+}
+.escrita1 {
+    position: relative;
+    right: -35rem;
+    top: -4rem;
+    width: 30%;
+    text-align: left;
+    font-family: "Netflix-media";
+}
+.escrita1 a {
+    color: #0071eb;
+}
+.text1 {
+    font-size: 1.2rem;
+}
+.text2 {
+    font-size: 1rem;
+}
+.assista {
+    display: flex;
+    width: 97%;
+    margin-bottom: 3rem;
+    margin: 2rem auto;
+    align-items: center;
+}
+.escrita {
+    display: flex;
+    flex-flow: column;
+    width: 70%;
+}
+.img {
+    width: 30%;
+}
+.img img {
+    width: 100%;
+}
+.det{
+    position: relative;
+    font-size: 1rem;
+}
+.tit {
+    width: 80%;
+    font-size: 1.5rem;
+}
+.default-ltr-cache-1d3w5wq {
+    z-index: 1;
+}
+hr {
+    border-color: rgb(220, 220, 220, 0.4);
+}
+.perguntas{
+    display: flex;
+    flex-flow: column;
+}
+.perguntas h3{
+    font-size: 1.5rem;
+}
+.div1, .resposta {
+    background-color: #001123;
+    color: white;
+    font-size: 1.5rem;
+    font-family: "Netflix-normal";
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.per1 :hover, .per2 :hover, .per3 :hover, .per4 :hover, .per5 :hover, .per6 :hover{
+    background-color: #001f40;
+}
+.tel{
+    font-size: 1.1rem;
+    margin-top: 2rem;
+}
+.tel a {
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: underline;
+}
+.divfinal{
+    margin-top: 2rem;
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+}
+.info {
+    display: flex;
+    flex-flow: column;
+    width: 30%;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.info a{
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: underline;
+}
+#language {
+    background: none;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    padding: 7px 16px;
+    padding-left: 2rem;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-right: 20px;
+    margin-bottom: 1rem;
+}
+#language option{
+    background-color: gray;
+    color: white;
+}
+.fa-globe{
+    z-index: 1;
+}
+.netbra{
+    margin-bottom: 3rem;
+}
+#emailbX{
+    height: 2rem;
+    width: 17rem;
+    border-radius: 5px;
+}
+.btnbaixo {
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #e50914;
+    border: 0;
+    color: white;
+}
+.inputbaixo{
+    display: flex;
+    flex-flow: column;
+    margin: 0 auto;
+    width: 50%;
+}
+.inputbaixo span {
+    margin: 0 auto;
+    padding: 1rem;
+    padding-top: 3rem;
+    font-size: 1.3rem;
+}
+.inputt {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+#language img {
+    z-index: 99;
 }
