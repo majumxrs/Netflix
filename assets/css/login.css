@@ -1,3 +1,8 @@
+:root{
+    --Cinza-input : #333333;
+    --cinza-letrainput: #626364;
+    --vermelho-netiflix : #e50914;
+}
 html, body, stction, h1, h2, 
 span, div, form, input, nav, header{
     margin: 0;
@@ -15,7 +20,7 @@ span, div, form, input, nav, header{
 }
 @font-face {
     font-family: "Netflix-Bd";
-    src: url("fonts/NetflixSans_W_Bd.woff2");
+    src: url("Fontes/fonts/NetflixSans_W_Bd.woff2");
 }
 @font-face {
     font-family: "Netflix-Md";
@@ -36,14 +41,14 @@ body {
     margin: 45px 55px;
 }
 .header-logo svg {
-    fill:#e50914;
+    fill:var(--vermelho-netiflix);
     width: 167px;
     height: 45px;
 }
 .caixaTranparenteDasIfo{
     display: flex;
-    height: 40rem;
-    width: 29%;
+    height: 42rem;
+    width: 30%;
     background-color: rgba(10 ,10 ,10, 0.8);
     margin-left: 32rem;
     margin-top: -3.5rem;
@@ -54,21 +59,106 @@ body {
     margin-left: -8.4rem;
     width: 20rem;
     height: 3.5rem;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
+    background-color:var(--Cinza-input);
+    color: var(--cinza-letrainput);
 }
 .SegInputProprio2{
     margin-top: 16rem;
     margin-left: -20rem;
     width: 20rem;
     height: 3.5rem;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
+    background-color:var(--Cinza-input);
+    color: var(--cinza-letrainput);
 }
-span{
+.spanentrar{
     display: block;
     margin-top: 5rem;
     font-size: 2em;
-    margin-left: 7rem;
+    margin-left: 6rem;
     font-weight: bold;
     font-family: "Netflix-normal";
 } 
-/*fiz ate aqui*/
+/*por daqui para baixo */
+.BTNEntrar{
+    width: 20rem;
+    height: 3.5rem;
+    background-color: var(--vermelho-netiflix);
+    border-radius: 0.5rem;
+    margin-top: 23rem;
+    margin-left: -20rem;
+    border-color: var(--vermelho-netiflix);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#Lembre{
+    margin-top: 28rem;
+    margin-left: -20rem;
+}
+h6{
+    margin-top: -1rem;
+    margin-left: -7rem;
+    font-size: 0.7rem;
+}
+label, h6{
+    color: var(--cinza-letrainput);
+}
+h2{
+    margin-top: 30rem;
+    margin-left: -20rem;
+    color: var(--cinza-letrainput);
+}
+.Assina{
+    margin-left: 1rem;
+    color: white;
+    text-decoration: none;
+}
+h3{
+    width: 20rem;
+    margin-top: 33rem;
+    margin-left: -20rem;
+    color: var(--cinza-letrainput);
+    font-size: 0.8rem;
+}
+.caixa1 , .caixa2, .caixa3, .caixa4{
+    width: 33.3%;
+    display: flex;
+}
+.escrita1,.escrita2, .escrita3, .escrita4, .escrita5, .escrita6, .escrita7, .escrita8{
+    color: #737373;
+    font-size: 1rem;
+
+}
+.caixagrande{
+    background-color: rgba(10 ,10 ,10 ,0.8) ;
+    width: 100%;
+    height: 15rem;
+    margin-top: 150px;
+    display: flex;
+}
+.escrita1,.escrita2, #idioma{
+    margin-left: auto;
+    margin-top: 1rem;
+}
+/*
+.escrita1{
+    margin-top: 5rem;
+    margin-left: 1rem;
+}
+.escrita2{
+    margin-top: 10rem;
+    margin-left:-20rem;
+}
+.escrita3{
+    margin-left: 1rem;
+}
+
+#idioma{
+    width: 8rem;
+    height: 2rem;
+    font-size: 20px;
+    background-color: rgba(10 ,10 ,10 ,0.8) ;
+    color:white;
+}*/
